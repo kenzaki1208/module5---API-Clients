@@ -8,14 +8,14 @@ export default function BookList() {
 
     useEffect(() => {
         axios
-            .get("https://my-json-server.typicode.com/codegym-vn/mock-api-books/books")
+            .get("http://localhost:3001/books")
             .then((res) => setBooks(res.data))
             .catch((err) => console.log(err));
     }, []);
 
     const handleDelete = (id) => {
         axios
-            .delete(`https://my-json-server.typicode.com/codegym-vn/mock-api-books/books/${id}`)
+            .delete(`http://localhost:3001/books/${id}`)
             .then(() => {
                 alert("Delete successfully!");
                 setBooks(books.filter((book) => book.id !== id));

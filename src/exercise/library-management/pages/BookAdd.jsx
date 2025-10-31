@@ -13,7 +13,7 @@ export default function BookAdd() {
     const handleAdd = (e) => {
         e.preventDefault();
         axios
-            .post("https://my-json-server.typicode.com/codegym-vn/mock-api-books/books", book)
+            .post("http://localhost:3001/books", book)
             .then(() => {
                 alert("Book added successfully!");
                 navigate("/");

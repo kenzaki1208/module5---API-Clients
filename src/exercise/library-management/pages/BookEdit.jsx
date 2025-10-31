@@ -20,7 +20,7 @@ export default function BookEdit() {
     const handleSave = (e) => {
         e.preventDefault();
         axios
-            .put(`https://my-json-server.typicode.com/codegym-vn/mock-api-books/books/${id}`, book)
+            .put(`http://localhost:3001/books/${id}`, book)
             .then(() => {
                 alert("Book updated successfully!");
                 navigate("/");
