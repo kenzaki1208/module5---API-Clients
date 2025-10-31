@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Peter",
+      "birthYear": 2022,
+      "posts": 2
+    },
+    {
+      "id": 2,
+      "name": "Jennie",
+      "birthYear": 1995,
+      "posts": 1
+    },
+    {
+      "id": 3,
+      "name": "Harry",
+      "birthYear": 1988,
+      "posts": 1
+    },
+    {
+      "id": 4,
+      "name": "Beck",
+      "birthYear": 1992,
+      "posts": 1
+    },
+    {
+      "id": 5,
+      "name": "Ben",
+      "birthYear": 1985,
+      "posts": 0
+    },
+    {
+      "id": 6,
+      "name": "Alice",
+      "birthYear": 2000,
+      "posts": 0
+    }
+  ]
+}
