@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "phone": "0912123109",
+      "image": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": "2",
+      "name": "Richard",
+      "email": "richard@gmail.com",
+      "phone": "0912123123",
+      "image": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "3",
+      "name": "Beck",
+      "email": "beck@gmail.com",
+      "phone": "0912123121",
+      "image": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "4",
+      "name": "Tony Stark",
+      "email": "ironman@starkindustries.com",
+      "phone": "0909009009",
+      "image": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "5",
+      "name": "Bruce Wayne",
+      "email": "bruce@wayneenterprises.com",
+      "phone": "0988008800",
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "6",
+      "name": "Clark Kent",
+      "email": "superman@dailyplanet.com",
+      "phone": "0911001100",
+      "image": "https://i.pravatar.cc/150?img=6"
+    }
+  ]
+}
